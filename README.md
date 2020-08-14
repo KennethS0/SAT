@@ -15,13 +15,13 @@ simply put the same number but as a negative.
 - Next Lines: Clauses (Each variable must be separated by a space)
 
 
-**Example**__
-5__
-4__
-1 3 4__
--5 -2__
-1 2__
--3__
+**Example**<br />
+5<br />
+4<br />
+1 3 4<br />
+-5 -2<br />
+1 2<br />
+-3<br />
 This translates to:
   - 5 Variables (A, B, C, D, E)
   - 4 Clauses
