@@ -12,4 +12,13 @@ simply put the same number but as a negative.
 **Format**
 - First Line: Amount of variables
 - Second Line: Amount of clauses
-- Next Lines: Clauses
+- Next Lines: Clauses (Each variable must be separated by a space)
+
+
+**Example**
+5
+4
+1 3 4
+-5 -2
+1 2
+-3
