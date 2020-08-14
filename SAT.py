@@ -107,28 +107,27 @@ def evaluateIndividual(pIndividual, pClauses):
     '''
         Evaluates the fitness of a specific individual.
     '''
-    fitness = 0.0
-    fitnessIncrement = 1 / len(pClauses)
+    fitness = 0
 
     for clause in pClauses:
-        
+
         condition = False
-        
+
         for variable in clause:
             value = int(variable)
-            
+
             if value > 0:
                 condition = bool(int(pIndividual[value - 1]))
-            
+
             else:
                 condition = not bool(int(pIndividual[(value + 1) * -1]))
 
             # The clause turns out to be true
             if condition:
-                fitness += fitnessIncrement
+                fitness += 1
                 break
 
-    return fitness
+    return fitness / len(pClauses)
 
 
 def crossOver(pPopulation):
