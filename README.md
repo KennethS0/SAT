@@ -15,14 +15,14 @@ simply put the same number but as a negative.
 - Next Lines: Clauses (Each variable must be separated by a space)
 
 
-**Example**<br />
+###Example
 5<br />
 4<br />
 1 3 4<br />
 -5 -2<br />
 1 2<br />
 -3<br />
-This translates to:
+**This translates to:**
   - 5 Variables (A, B, C, D, E)
   - 4 Clauses
   - A or C or D
