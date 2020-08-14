@@ -15,7 +15,7 @@ simply put the same number but as a negative.
 - Next Lines: Clauses (Each variable must be separated by a space)
 
 
-###Example
+### Example
 5<br />
 4<br />
 1 3 4<br />
